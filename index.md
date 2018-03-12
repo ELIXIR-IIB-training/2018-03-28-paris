@@ -136,7 +136,6 @@ FEE
 </p>
 {% endif %}
 
-
 {% comment %}
   REGISTRATION FORM
 
