@@ -10,9 +10,7 @@ humandate: "Mar 28-29, 2018"    # human-readable dates for the workshop (e.g., "
 humantime: "9:00 am - 5:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 deadline: "Mar 24, 2018"	# human-readable date for the deadline 
 fee: "There is no course attendance fee. The participants will need to bear their travel, hotel (if any) . ELIXIR and IFB will cover coffee breaks and lunches costs."			# fee
-application_form: "https://goo.gl/forms/t69Nv4HwcEX5hQFj2" #link to the application form
-https://goo.gl/forms/7eCoCt18esKuZPLo1
-
+application_form: "https://goo.gl/forms/7eCoCt18esKuZPLo1" #link to the application form
 startdate: 2018-03-28      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-03-29        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Allegra Via", "TBA"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
