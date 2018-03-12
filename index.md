@@ -146,8 +146,6 @@ FEE
 {% endif %}
 
 {% comment %}
-
-{% comment %}
   SPECIAL REQUIREMENTS
 
   Modify the block below if there are any special requirements.
