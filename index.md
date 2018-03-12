@@ -9,7 +9,7 @@ latlng: "48.840447,2.310683"       # decimal latitude and longitude of workshop 
 humandate: "Mar 28-29, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 5:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 deadline: "Mar 24, 2018"	# human-readable date for the deadline 
-fee: "There is no course attendance fee. The participants will need to bear their travel, hotel (if any) . ELIXIR and IFB will cover coffee breaks and lunches costs."			# fee
+fee: "There is no course attendance fee. The participants will need to bear their travel and accommdodation costs, if any. ELIXIR and IFB will cover coffee break and lunch costs."			# fee
 application_form: "https://goo.gl/forms/7eCoCt18esKuZPLo1" #link to the application form
 startdate: 2018-03-28      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-03-29        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
