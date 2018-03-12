@@ -120,7 +120,6 @@ DEADLINE
 <p id="deadline">
   <strong>Registration deadline:</strong>
   {{page.deadline}}.
-
 </p>
 {% endif %}
 
@@ -132,7 +131,6 @@ FEE
 <p id="fee">
   <strong>Fee:</strong>
   {{page.fee}}.
-
 </p>
 {% endif %}
 
