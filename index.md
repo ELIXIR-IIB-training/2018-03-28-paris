@@ -8,6 +8,11 @@ language: "English"     # lowercase two-letter ISO language code such as "fr" (s
 latlng: "48.840447,2.310683"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
 humandate: "Mar 28-29, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 5:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+deadline: "Mar 24, 2018"	# human-readable date for the deadline 
+fee: "There is no course attendance fee. The participants will need to bear their travel, hotel (if any) . ELIXIR and IFB will cover coffee breaks and lunches costs."			# fee
+application_form: "https://goo.gl/forms/t69Nv4HwcEX5hQFj2" #link to the application form
+https://goo.gl/forms/7eCoCt18esKuZPLo1
+
 startdate: 2018-03-28      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-03-29        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Allegra Via", "TBA"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -107,6 +112,43 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   {% include workshop_calendar.html %}
 </p>
 {% endif %}
+
+{% comment %}
+DEADLINE
+
+  This block displays the deadlines.
+{% endcomment %}
+{% if page.deadline %}
+<p id="deadline">
+  <strong>Registration deadline:</strong>
+  {{page.deadline}}.
+
+</p>
+{% endif %}
+
+{% comment %}
+FEE
+  This block displays the fee.
+{% endcomment %}
+{% if page.fee %}
+<p id="fee">
+  <strong>Fee:</strong>
+  {{page.fee}}.
+
+</p>
+{% endif %}
+
+
+{% comment %}
+  REGISTRATION FORM
+
+  This block includes the link to the application form.
+{% endcomment %}
+{% if page.application_form %}
+ <strong>Registration form: </strong> Click <a href="{{page.application_form}}">here</a> to register.
+{% endif %}
+
+{% comment %}
 
 {% comment %}
   SPECIAL REQUIREMENTS
